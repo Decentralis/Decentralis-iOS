@@ -7,20 +7,42 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B246D8EA2C70A95F00F5A196 /* DecentralisApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B246D8E92C70A95F00F5A196 /* DecentralisApp.swift */; };
-		B246D8EC2C70A95F00F5A196 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B246D8EB2C70A95F00F5A196 /* ContentView.swift */; };
-		B246D8EE2C70A95F00F5A196 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = B246D8ED2C70A95F00F5A196 /* Item.swift */; };
-		B246D8F02C70A95F00F5A196 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B246D8EF2C70A95F00F5A196 /* Assets.xcassets */; };
-		B246D8F32C70A95F00F5A196 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B246D8F22C70A95F00F5A196 /* Preview Assets.xcassets */; };
+		B246D90B2C70A9A700F5A196 /* DecentralisApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B246D8F92C70A9A700F5A196 /* DecentralisApp.swift */; };
+		B246D90D2C70A9A700F5A196 /* InstancesList.swift in Sources */ = {isa = PBXBuildFile; fileRef = B246D8FC2C70A9A700F5A196 /* InstancesList.swift */; };
+		B246D90E2C70A9A700F5A196 /* InstancesStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B246D8FD2C70A9A700F5A196 /* InstancesStorage.swift */; };
+		B246D90F2C70A9A700F5A196 /* NewInstance.swift in Sources */ = {isa = PBXBuildFile; fileRef = B246D8FE2C70A9A700F5A196 /* NewInstance.swift */; };
+		B246D9102C70A9A700F5A196 /* Password.swift in Sources */ = {isa = PBXBuildFile; fileRef = B246D8FF2C70A9A700F5A196 /* Password.swift */; };
+		B246D9112C70A9A700F5A196 /* ChannelsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = B246D9012C70A9A700F5A196 /* ChannelsList.swift */; };
+		B246D9122C70A9A700F5A196 /* ChannelsStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B246D9022C70A9A700F5A196 /* ChannelsStorage.swift */; };
+		B246D9132C70A9A700F5A196 /* NewChannel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B246D9032C70A9A700F5A196 /* NewChannel.swift */; };
+		B246D9142C70A9A700F5A196 /* NewMessages.swift in Sources */ = {isa = PBXBuildFile; fileRef = B246D9042C70A9A700F5A196 /* NewMessages.swift */; };
+		B246D9152C70A9A700F5A196 /* ChannelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B246D9062C70A9A700F5A196 /* ChannelView.swift */; };
+		B246D9162C70A9A700F5A196 /* MessagesStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B246D9072C70A9A700F5A196 /* MessagesStorage.swift */; };
+		B246D9182C70A9A700F5A196 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B246D90A2C70A9A700F5A196 /* ContentView.swift */; };
+		B246D91A2C70A9F000F5A196 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B246D9192C70A9F000F5A196 /* Assets.xcassets */; };
+		B246D91F2C70AACB00F5A196 /* Decentralis-Swift in Frameworks */ = {isa = PBXBuildFile; productRef = B246D91E2C70AACB00F5A196 /* Decentralis-Swift */; };
+		B2CBDD1A2C70AB6F00F6946E /* LibCrypto in Frameworks */ = {isa = PBXBuildFile; productRef = B2CBDD192C70AB6F00F6946E /* LibCrypto */; };
+		B2CBDD1D2C70AB8500F6946E /* Crypto in Frameworks */ = {isa = PBXBuildFile; productRef = B2CBDD1C2C70AB8500F6946E /* Crypto */; };
+		B2CBDD1F2C70AB8500F6946E /* _CryptoExtras in Frameworks */ = {isa = PBXBuildFile; productRef = B2CBDD1E2C70AB8500F6946E /* _CryptoExtras */; };
+		B2CBDD222C70ABC200F6946E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2CBDD202C70ABC200F6946E /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B246D8E62C70A95F00F5A196 /* Decentralis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Decentralis.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		B246D8E92C70A95F00F5A196 /* DecentralisApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecentralisApp.swift; sourceTree = "<group>"; };
-		B246D8EB2C70A95F00F5A196 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		B246D8ED2C70A95F00F5A196 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
-		B246D8EF2C70A95F00F5A196 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		B246D8F22C70A95F00F5A196 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B246D8F92C70A9A700F5A196 /* DecentralisApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DecentralisApp.swift; sourceTree = "<group>"; };
+		B246D8FC2C70A9A700F5A196 /* InstancesList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstancesList.swift; sourceTree = "<group>"; };
+		B246D8FD2C70A9A700F5A196 /* InstancesStorage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstancesStorage.swift; sourceTree = "<group>"; };
+		B246D8FE2C70A9A700F5A196 /* NewInstance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewInstance.swift; sourceTree = "<group>"; };
+		B246D8FF2C70A9A700F5A196 /* Password.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Password.swift; sourceTree = "<group>"; };
+		B246D9012C70A9A700F5A196 /* ChannelsList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChannelsList.swift; sourceTree = "<group>"; };
+		B246D9022C70A9A700F5A196 /* ChannelsStorage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChannelsStorage.swift; sourceTree = "<group>"; };
+		B246D9032C70A9A700F5A196 /* NewChannel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewChannel.swift; sourceTree = "<group>"; };
+		B246D9042C70A9A700F5A196 /* NewMessages.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewMessages.swift; sourceTree = "<group>"; };
+		B246D9062C70A9A700F5A196 /* ChannelView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChannelView.swift; sourceTree = "<group>"; };
+		B246D9072C70A9A700F5A196 /* MessagesStorage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessagesStorage.swift; sourceTree = "<group>"; };
+		B246D90A2C70A9A700F5A196 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B246D9192C70A9F000F5A196 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B2CBDD202C70ABC200F6946E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -28,6 +50,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2CBDD1F2C70AB8500F6946E /* _CryptoExtras in Frameworks */,
+				B2CBDD1D2C70AB8500F6946E /* Crypto in Frameworks */,
+				B246D91F2C70AACB00F5A196 /* Decentralis-Swift in Frameworks */,
+				B2CBDD1A2C70AB6F00F6946E /* LibCrypto in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -53,19 +79,52 @@
 		B246D8E82C70A95F00F5A196 /* Decentralis */ = {
 			isa = PBXGroup;
 			children = (
-				B246D8E92C70A95F00F5A196 /* DecentralisApp.swift */,
-				B246D8EB2C70A95F00F5A196 /* ContentView.swift */,
-				B246D8ED2C70A95F00F5A196 /* Item.swift */,
-				B246D8EF2C70A95F00F5A196 /* Assets.xcassets */,
-				B246D8F12C70A95F00F5A196 /* Preview Content */,
+				B246D9192C70A9F000F5A196 /* Assets.xcassets */,
+				B2CBDD212C70ABC200F6946E /* Preview Content */,
+				B246D9052C70A9A700F5A196 /* Channels */,
+				B246D90A2C70A9A700F5A196 /* ContentView.swift */,
+				B246D9002C70A9A700F5A196 /* Instances */,
+				B246D8F92C70A9A700F5A196 /* DecentralisApp.swift */,
+				B246D9082C70A9A700F5A196 /* Messages */,
 			);
 			path = Decentralis;
 			sourceTree = "<group>";
 		};
-		B246D8F12C70A95F00F5A196 /* Preview Content */ = {
+		B246D9002C70A9A700F5A196 /* Instances */ = {
 			isa = PBXGroup;
 			children = (
-				B246D8F22C70A95F00F5A196 /* Preview Assets.xcassets */,
+				B246D8FC2C70A9A700F5A196 /* InstancesList.swift */,
+				B246D8FD2C70A9A700F5A196 /* InstancesStorage.swift */,
+				B246D8FE2C70A9A700F5A196 /* NewInstance.swift */,
+				B246D8FF2C70A9A700F5A196 /* Password.swift */,
+			);
+			path = Instances;
+			sourceTree = "<group>";
+		};
+		B246D9052C70A9A700F5A196 /* Channels */ = {
+			isa = PBXGroup;
+			children = (
+				B246D9012C70A9A700F5A196 /* ChannelsList.swift */,
+				B246D9022C70A9A700F5A196 /* ChannelsStorage.swift */,
+				B246D9032C70A9A700F5A196 /* NewChannel.swift */,
+				B246D9042C70A9A700F5A196 /* NewMessages.swift */,
+			);
+			path = Channels;
+			sourceTree = "<group>";
+		};
+		B246D9082C70A9A700F5A196 /* Messages */ = {
+			isa = PBXGroup;
+			children = (
+				B246D9062C70A9A700F5A196 /* ChannelView.swift */,
+				B246D9072C70A9A700F5A196 /* MessagesStorage.swift */,
+			);
+			path = Messages;
+			sourceTree = "<group>";
+		};
+		B2CBDD212C70ABC200F6946E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B2CBDD202C70ABC200F6946E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -86,6 +145,12 @@
 			dependencies = (
 			);
 			name = Decentralis;
+			packageProductDependencies = (
+				B246D91E2C70AACB00F5A196 /* Decentralis-Swift */,
+				B2CBDD192C70AB6F00F6946E /* LibCrypto */,
+				B2CBDD1C2C70AB8500F6946E /* Crypto */,
+				B2CBDD1E2C70AB8500F6946E /* _CryptoExtras */,
+			);
 			productName = Decentralis;
 			productReference = B246D8E62C70A95F00F5A196 /* Decentralis.app */;
 			productType = "com.apple.product-type.application";
@@ -102,6 +167,7 @@
 				TargetAttributes = {
 					B246D8E52C70A95F00F5A196 = {
 						CreatedOnToolsVersion = 15.4;
+						LastSwiftMigration = 1540;
 					};
 				};
 			};
@@ -114,6 +180,11 @@
 				Base,
 			);
 			mainGroup = B246D8DD2C70A95F00F5A196;
+			packageReferences = (
+				B246D91D2C70AACB00F5A196 /* XCRemoteSwiftPackageReference "Decentralis-Swift" */,
+				B2CBDD182C70AB6F00F6946E /* XCRemoteSwiftPackageReference "swift-libcrypto" */,
+				B2CBDD1B2C70AB8500F6946E /* XCRemoteSwiftPackageReference "swift-crypto" */,
+			);
 			productRefGroup = B246D8E72C70A95F00F5A196 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -128,8 +199,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B246D8F32C70A95F00F5A196 /* Preview Assets.xcassets in Resources */,
-				B246D8F02C70A95F00F5A196 /* Assets.xcassets in Resources */,
+				B2CBDD222C70ABC200F6946E /* Preview Assets.xcassets in Resources */,
+				B246D91A2C70A9F000F5A196 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,9 +211,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B246D8EC2C70A95F00F5A196 /* ContentView.swift in Sources */,
-				B246D8EE2C70A95F00F5A196 /* Item.swift in Sources */,
-				B246D8EA2C70A95F00F5A196 /* DecentralisApp.swift in Sources */,
+				B246D90D2C70A9A700F5A196 /* InstancesList.swift in Sources */,
+				B246D9112C70A9A700F5A196 /* ChannelsList.swift in Sources */,
+				B246D9182C70A9A700F5A196 /* ContentView.swift in Sources */,
+				B246D9142C70A9A700F5A196 /* NewMessages.swift in Sources */,
+				B246D9122C70A9A700F5A196 /* ChannelsStorage.swift in Sources */,
+				B246D90B2C70A9A700F5A196 /* DecentralisApp.swift in Sources */,
+				B246D9162C70A9A700F5A196 /* MessagesStorage.swift in Sources */,
+				B246D90E2C70A9A700F5A196 /* InstancesStorage.swift in Sources */,
+				B246D9102C70A9A700F5A196 /* Password.swift in Sources */,
+				B246D9132C70A9A700F5A196 /* NewChannel.swift in Sources */,
+				B246D9152C70A9A700F5A196 /* ChannelView.swift in Sources */,
+				B246D90F2C70A9A700F5A196 /* NewInstance.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,16 +353,19 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Decentralis/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.social-networking";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -291,6 +374,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.github.aeoliux.Decentralis;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -301,16 +385,19 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Decentralis/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.social-networking";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -346,6 +433,56 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B246D91D2C70AACB00F5A196 /* XCRemoteSwiftPackageReference "Decentralis-Swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Decentralis/Decentralis-Swift";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		B2CBDD182C70AB6F00F6946E /* XCRemoteSwiftPackageReference "swift-libcrypto" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/M3DZIK/swift-libcrypto";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		B2CBDD1B2C70AB8500F6946E /* XCRemoteSwiftPackageReference "swift-crypto" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-crypto.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.6.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B246D91E2C70AACB00F5A196 /* Decentralis-Swift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B246D91D2C70AACB00F5A196 /* XCRemoteSwiftPackageReference "Decentralis-Swift" */;
+			productName = "Decentralis-Swift";
+		};
+		B2CBDD192C70AB6F00F6946E /* LibCrypto */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B2CBDD182C70AB6F00F6946E /* XCRemoteSwiftPackageReference "swift-libcrypto" */;
+			productName = LibCrypto;
+		};
+		B2CBDD1C2C70AB8500F6946E /* Crypto */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B2CBDD1B2C70AB8500F6946E /* XCRemoteSwiftPackageReference "swift-crypto" */;
+			productName = Crypto;
+		};
+		B2CBDD1E2C70AB8500F6946E /* _CryptoExtras */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B2CBDD1B2C70AB8500F6946E /* XCRemoteSwiftPackageReference "swift-crypto" */;
+			productName = _CryptoExtras;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = B246D8DE2C70A95F00F5A196 /* Project object */;
 }
